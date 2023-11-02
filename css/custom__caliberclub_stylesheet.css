@@ -319,6 +319,7 @@ ul.topbar_socialLink i {
     position: relative;
     z-index: 9;
     align-items: start !important;
+    height: 595px;
 }
 
 @media screen and (max-width:1320px) and (min-width:768px) {
@@ -1009,6 +1010,8 @@ a.navbar-brand>img {
     }
     .navbar-default .navbar-collapse{
         width: 100%;
+        display: flex !important;
+        justify-content: center;
     }
 
     /* .footer-item .social-links i{
@@ -1035,7 +1038,7 @@ a.navbar-brand>img {
     margin-top: 15px;
 } */
 .navbar-default .navbar-header {
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -1236,7 +1239,10 @@ a.navbar-brand>img {
 }
 
 
-
+.widgetProduct .price{
+    color:#000;
+    font-family: 'Montserrat Bold';
+}
 
 .footer-widget {
     background-color: #000000;
